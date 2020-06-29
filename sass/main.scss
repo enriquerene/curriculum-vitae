@@ -1,0 +1,35 @@
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "../node_modules/bootstrap/scss/_variables.scss";
+@import "../node_modules/bootstrap/scss/_mixins.scss";
+$theme-colors: (
+	"primary": #60038f,
+);
+@import "../node_modules/bootstrap/scss/_grid.scss";
+@import "../node_modules/bootstrap/scss/_utilities.scss";
+@import "../node_modules/bootstrap/scss/_forms.scss";
+
+.mw-sm
+{
+	max-width: 768px !important;
+}
+
+.mw-xs
+{
+	max-width: 640px !important;
+}
+
+.fm-courgette
+{
+	font-family: 'Courgette', cursive;
+}
+
+.fm-merienda-one
+{
+	font-family: 'Merienda One', cursive;
+}
+
+.fm-pangolin
+{
+	font-family: 'Pangolin', cursive;
+}
+

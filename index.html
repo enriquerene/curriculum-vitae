@@ -7,114 +7,85 @@
 
     <!-- FONTAWESOME AND BOOTSTRAP -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pangolin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Pangolin&display=swap" rel="stylesheet" />
 
+		<link href="assets/css/main.css" rel="stylesheet"/>
     <title>Enrique René | Portfolio</title>
-
-    <style>
-        .mw-sm {
-            max-width: 768px !important;
-        }
-        .mw-xs {
-            max-width: 640px !important;
-        }
-
-        .fm-courgette {
-            font-family: 'Courgette', cursive;
-        }
-        .fm-merienda-one {
-            font-family: 'Merienda One', cursive;
-        }
-        .fm-pangolin {
-            font-family: 'Pangolin', cursive;
-        }
-    </style>
-
 </head>
 <body>
 
-    <div id="navContainer" class="fixed-bottom border-top bg-white">
+    <main class="container-fluid fm-pangolin">
 
-        <nav class="d-flex p-2">
+				<div id="navContainer" class="fixed-bottom border-top bg-white">
+						<nav class="d-flex p-2">
+								<a href="#apresentacao" class="btn btn-link text-center my-auto mr-auto">
+										<img class="rounded-circle" width="25" src="enrique calopsita.jpeg" alt="" title="Enrique René" />
+										<small class="d-block d-md-inline mx-md-2 fm-courgette">
+												Enrique René
+		                </small>
+					     </a>
 
-            <a href="#sobre" class="btn btn-link text-center my-auto mr-auto">
-                <img class="rounded-circle" width="25" src="enrique calopsita.jpeg" alt="" title="Enrique René" />
-                <small class="d-block d-md-inline mx-md-2 fm-courgette">
-                    Enrique René
-                </small>
-            </a>
+							  <a href="#portfolio" class="btn btn-link text-center my-auto">
+									  <i class="far fa-images"></i>
+		                <small class="d-block">
+		                    Portfolio
+		                </small>
+		            </a>
+	
+			          <a href="#tutoriais" class="btn btn-link text-center my-auto">
+		                <i class="fas fa-chalkboard-teacher"></i>
+		                <small class="d-block">
+		                    Tutoriais
+		                </small>
+		            </a>
 
-            <a href="#portfolio" class="btn btn-link text-center my-auto">
-                <i class="far fa-images"></i>
-                <small class="d-block">
-                    Portfolio
-                </small>
-            </a>
+		            <a href="#contato" class="btn btn-link text-center my-auto">
+		                <i class="far fa-comments"></i>
+		                <small class="d-block">
+		                    Contato
+		                </small>
+		            </a>
+		        </nav>
+				</div>
 
-            <a href="#tutoriais" class="btn btn-link text-center my-auto">
-                <i class="fas fa-chalkboard-teacher"></i>
-                <small class="d-block">
-                    Tutoriais
-                </small>
-            </a>
-
-            <a href="#contato" class="btn btn-link text-center my-auto">
-                <i class="far fa-comments"></i>
-                <small class="d-block">
-                    Contato
-                </small>
-            </a>
-
-        </nav>
-
-    </div>
-
-    <main class="mb-5 pb-3 fm-pangolin">
-
-        <section id="sobre" class="container-fluid">
-            <div class="row bg-primary">
-                <div class="col-12">
-                    <div class="text-center text-white my-3 pb-2">
-                        <h2 class="p-1 fm-merienda-one">
-                            Enrique René
-                        </h2>
-                        <span class="p-1">
-                            Bacharel em Física imerso na vida de Desenvolvedor Web &amp; Mobile. Amante da Matemática e do OpenSource!
-                        </span>
-                    </div>
+        <section id="apresentacao" class="row">
+            <div class="col-12 bg-primary">
+                <div class="text-center text-white my-3 pb-2">
+                    <h2 class="p-1 fm-merienda-one">
+                        Enrique René
+                    </h2>
+                    <span class="p-1">
+                        Bacharel em Física. Amante da Matemática. Viciado em programação.
+                    </span>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 d-flex">
-                    <article class="my-2 mx-auto mw-sm p-2">
-                        <p>
-                            Sigo a vida atuando como <strong>Professor Particular</strong> e <strong>Desenvolvedor Web (Full Stack)</strong>. Minha experiência com Física e Matemática me capacitam para modelagem matemática através da programação de computadores, em geral PHP, Python ou R. Modelagem computacional para cálculos  estatísticos e análise de dados.
-                        </p>
-                        <p>
-                            Desenvolvimento Backend: PHP 7, MySQL 8. Tenho hábito de trabalhar com as ferramentas PHPMyAdmin, Slim Framework e Laravel. Minha estratégia principal é desenvolver o sistema de API REST com rotas protegidas via OAuth, que servem conteúdo em JSON ou HTML dependendo da requisição. 
-                        </p>
-                        <p>
-                            Habituado a trabalhar em ambiente Linux nas distribuições Ubuntu, Debian, Fedora tanto para WorkStation quanto para Servidores. Utilizo programação Shell Script para automação de processos e assim minimizar o tempo de produção e quantidade de erros.
-                        </p>
-                        <p>
-                            Desenvolvimento Frontend: HTML 5, CSS 3 e JavaScript (ES06). Trabalho com SASS, Bootstrap, React, React Native, React 360, Vue, Angular, Apache Cordova, Ionic Framework. Minha estratégia principal é o consumo de APIs através de requisições assíncronas com troca de informações via JSON.
-                        </p>
-                        <p>
-                            Para desenvolvimentos rápidos e robustos buscando minimização dos custos e maior autonomia para o cliente, busco o desenvolvimento de sites em cima do WordPress (e WooCommerce), no qual trabalho com o desenvolvimento de Plugins e Temas. Desenvolvimento Mobile via WordPress é feito consumindo a WP API. 
-                        </p>
-                    </article>
-                </div>
+            <div class="col-12 d-flex">
+                <article class="my-2 mx-auto mw-sm p-2">
+                    <p>
+                        Sigo a vida atuando como <strong>Professor Particular</strong> e <strong>Desenvolvedor Web (Full Stack)</strong>. Minha experiência com Física e Matemática me capacitam para modelagem matemática através da programação de computadores, em geral PHP, Python ou R. Modelagem computacional para cálculos  estatísticos e análise de dados.
+                    </p>
+                    <p>
+                        Desenvolvimento Backend: PHP 7, MySQL 8. Tenho hábito de trabalhar com as ferramentas PHPMyAdmin, Slim Framework e Laravel. Minha estratégia principal é desenvolver o sistema de API REST com rotas protegidas via OAuth, que servem conteúdo em JSON ou HTML dependendo da requisição. 
+                     </p>
+                     <p>
+                        Habituado a trabalhar em ambiente Linux nas distribuições Ubuntu, Debian, Fedora tanto para WorkStation quanto para Servidores. Utilizo programação Shell Script para automação de processos e assim minimizar o tempo de produção e quantidade de erros.
+                    </p>
+                     <p>
+                        Desenvolvimento Frontend: HTML 5, CSS 3 e JavaScript (ES06). Trabalho com SASS, Bootstrap, React, React Native, React 360, Vue, Angular, Apache Cordova, Ionic Framework. Minha estratégia principal é o consumo de APIs através de requisições assíncronas com troca de informações via JSON.
+                    </p>
+                    <p>
+                        Para desenvolvimentos rápidos e robustos buscando minimização dos custos e maior autonomia para o cliente, busco o desenvolvimento de sites em cima do WordPress (e WooCommerce), no qual trabalho com o desenvolvimento de Plugins e Temas. Desenvolvimento Mobile via WordPress é feito consumindo a WP API. 
+                    </p>
+                </article>
             </div>
         </section>
 
-        <section id="portfolio" class="container-fluid">
-            <div class="row bg-primary">
-                <div class="col-12">
+        <section id="portfolio" class="row">
+            <div class="col-12 bg-primary">
                     <div class="text-center text-white my-3 pb-2">
                         <h2 class="p-1 fm-merienda-one">
                             Alguns trabalhos
@@ -123,32 +94,29 @@
                             Entenda através de exemplos o que é possível fazer na web.
                         </span>
                     </div>
-                </div>
             </div>
             <div class="row" id="articles-list">
             </div>
         </section>
         
-        <section id="tutoriais" class="container-fluid">
-            <div class="row bg-primary">
-                <div class="col-12">
+        <section id="tutoriais" class="row">
+            <div class="col-12 bg-primary">
                     <div class="text-center text-white my-3 pb-2">
                         <h2 class="p-1 fm-merienda-one">
                             Mãos na massa?!
                         </h2>
                         <span class="p-1">
-                            Registros pintados em cavernas. Registros esculpidos em pedra. Registros escritos em papéis. Registros na web. 
+                            rtigos sobre programação. 
                         </span>
                     </div>
-                </div>
             </div>
-            <div class="row">
+            <div class="col-12">
                 <!--  -->
             </div>
         </section>
 
-        <section id="contato">
-            <div class="text-center my-3 pb-2 border-top border-primary text-primary">
+        <section id="contato" class="row">
+            <div class="col-12 text-center border-top border-primary text-primary">
                 <h2 class="p-1 mt-3 fm-merienda-one">
                     Trocando ideia
                 </h2>
@@ -156,6 +124,7 @@
                     Escolha o canal por qual prefere entrar em contato para conversarmos.
                 </span>
             </div>
+						<div class="col-12">
             <address class="mw-xs m-auto">
                 <ul class="list-unstyled">
                     <li class="my-1 mx-auto p-1">
@@ -170,7 +139,7 @@
                         <a href="mailto:ola@enriquerene.com.br?subject=Contato por portfolio.&body=Olá! Vi seu contato no seu portfolio." target="_blank" class="d-flex btn btn-danger btn-block">
                             <i class="far fa-envelope my-auto border-right pr-2"></i>
                             <span class="m-auto">
-                                ola@enriquerene.com.br
+                                contato@enriquerene.com.br
                             </span>
                         </a>
                     </li>
@@ -191,7 +160,8 @@
                         </a>
                     </li>
                 </ul>
-            </address>
+							</address>
+						</div>
         </section>
 
     </main>
