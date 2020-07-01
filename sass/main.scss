@@ -3,10 +3,24 @@
 @import "../node_modules/bootstrap/scss/_mixins.scss";
 $theme-colors: (
 	"primary": #60038f,
+	"php": #8892be,
+	"js": #f7df1e,
+	"python": #4584b6,
+	"git": #fc6d26,
+	"linux": #333333,
+	"react": #00d8ff,
+	"bootstrap": #7952B3,
+	"ts": #7952B3,
 );
-@import "../node_modules/bootstrap/scss/_grid.scss";
+@import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
 @import "../node_modules/bootstrap/scss/_utilities.scss";
 @import "../node_modules/bootstrap/scss/_forms.scss";
+@import "../node_modules/bootstrap/scss/_buttons.scss";
+@import "../node_modules/bootstrap/scss/_type.scss";
+@import "../node_modules/bootstrap/scss/_list-group.scss";
+@import "../node_modules/bootstrap/scss/_card.scss";
+
+
 
 .mw-sm
 {
