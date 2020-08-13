@@ -1,8 +1,10 @@
+$primary: #5a0082;
+$secondary: #000;
 @import "../node_modules/bootstrap/scss/_functions.scss";
 @import "../node_modules/bootstrap/scss/_variables.scss";
 @import "../node_modules/bootstrap/scss/_mixins.scss";
 $theme-colors: (
-	"primary": #60038f,
+	"primary": $primary,
 	"php": #8892be,
 	"js": #f7df1e,
 	"python": #4584b6,
@@ -19,8 +21,6 @@ $theme-colors: (
 @import "../node_modules/bootstrap/scss/_type.scss";
 @import "../node_modules/bootstrap/scss/_list-group.scss";
 @import "../node_modules/bootstrap/scss/_card.scss";
-
-
 
 .mw-sm
 {
@@ -47,3 +47,7 @@ $theme-colors: (
 	font-family: 'Pangolin', cursive;
 }
 
+.bg-primary-to-secondary
+{
+	background-image: linear-gradient( $primary, $secondary );
+}
