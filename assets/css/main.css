@@ -10677,15 +10677,8 @@ mark,
   margin-bottom: -1px;
 }
 
-#apresentacao h1 {
-  font-size: 3em;
-  line-height: 0.7;
-}
-#apresentacao h1 small {
-  font-size: 0.53em;
-}
-#apresentacao p {
-  font-size: 1.6em;
+.w-xs {
+  width: 640px !important;
 }
 
 .mw-sm {
@@ -10730,6 +10723,27 @@ a {
 
 .fm-pangolin {
   font-family: "Pangolin", cursive !important;
+}
+
+#apresentacao h1 {
+  font-size: 3em;
+  line-height: 0.7;
+}
+#apresentacao h1 small {
+  font-size: 0.53em;
+}
+#apresentacao p {
+  font-size: 1.6em;
+}
+
+section#projetos {
+  background-image: url(../img/background-projetos.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+section#projetos article {
+  border-width: 2px !important;
+  border-color: #000 !important;
 }
 
 /*# sourceMappingURL=main.css.map */

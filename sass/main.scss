@@ -26,7 +26,10 @@ $theme-colors: (
 @import "../node_modules/bootstrap/scss/_list-group.scss";
 @import "../node_modules/bootstrap/scss/_card.scss";
 
-@import "./presentation.scss";
 @import "./spacing.scss";
 @import "./colorful.scss";
 @import "./fonts.scss";
+
+@import "./presentation.scss";
+@import "./opensource.scss";
+@import "./projects.scss";
