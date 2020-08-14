@@ -1,5 +1,7 @@
 $primary: #5a0082;
 $secondary: #000;
+$enable-gradients: true;
+$enable-shadows: true;
 @import "../node_modules/bootstrap/scss/_functions.scss";
 @import "../node_modules/bootstrap/scss/_variables.scss";
 @import "../node_modules/bootstrap/scss/_mixins.scss";
@@ -9,10 +11,12 @@ $theme-colors: (
 	"js": #f7df1e,
 	"python": #4584b6,
 	"git": #fc6d26,
+	"github": #000000,
 	"linux": #333333,
 	"react": #00d8ff,
 	"bootstrap": #7952B3,
 	"ts": #7952B3,
+	"telegram": #0088cc,
 );
 @import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
 @import "../node_modules/bootstrap/scss/_utilities.scss";
@@ -22,32 +26,7 @@ $theme-colors: (
 @import "../node_modules/bootstrap/scss/_list-group.scss";
 @import "../node_modules/bootstrap/scss/_card.scss";
 
-.mw-sm
-{
-	max-width: 768px !important;
-}
-
-.mw-xs
-{
-	max-width: 640px !important;
-}
-
-.fm-courgette
-{
-	font-family: 'Courgette', cursive;
-}
-
-.fm-merienda-one
-{
-	font-family: 'Merienda One', cursive;
-}
-
-.fm-pangolin
-{
-	font-family: 'Pangolin', cursive;
-}
-
-.bg-primary-to-secondary
-{
-	background-image: linear-gradient( $primary, $secondary );
-}
+@import "./presentation.scss";
+@import "./spacing.scss";
+@import "./colorful.scss";
+@import "./fonts.scss";
