@@ -14,3 +14,10 @@
 {
 	box-shadow: 2px 2px 4px #797979 !important;
 }
+@for $i from 1 through 3
+{
+	.flex-#{$i}
+	{
+		flex: $i !important;
+	}
+}
