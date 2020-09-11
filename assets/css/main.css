@@ -10721,7 +10721,7 @@ hr {
 
 p {
   font-size: 1rem !important;
-  text-indent: 1rem;
+  /*text-indent: 1rem;*/
 }
 
 a {
@@ -10733,13 +10733,13 @@ a {
   font-size: 1.6rem !important;
 }
 
-.fm-pangolin {
-  font-family: "Pangolin", cursive !important;
+.fm-montserrat {
+  font-family: "Montserrat", sans-serif !important;
 }
 
 #apresentacao h1 {
   font-size: 3em;
-  line-height: 0.7;
+  line-height: 1;
 }
 #apresentacao h1 small {
   font-size: 0.53em;
