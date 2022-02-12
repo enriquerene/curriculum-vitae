@@ -1,10 +1,5 @@
 $primary: #5a0082;
 $secondary: #000;
-$enable-gradients: true;
-$enable-shadows: true;
-@import "../node_modules/bootstrap/scss/_functions.scss";
-@import "../node_modules/bootstrap/scss/_variables.scss";
-@import "../node_modules/bootstrap/scss/_mixins.scss";
 $theme-colors: (
 	"primary": $primary,
 	"php": #8892be,
@@ -18,18 +13,66 @@ $theme-colors: (
 	"ts": #7952B3,
 	"telegram": #0088cc,
 );
-@import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
-@import "../node_modules/bootstrap/scss/_utilities.scss";
-@import "../node_modules/bootstrap/scss/_forms.scss";
-@import "../node_modules/bootstrap/scss/_buttons.scss";
-@import "../node_modules/bootstrap/scss/_type.scss";
-@import "../node_modules/bootstrap/scss/_list-group.scss";
-@import "../node_modules/bootstrap/scss/_card.scss";
-
 @import "./spacing.scss";
 @import "./colorful.scss";
-@import "./fonts.scss";
 
-@import "./presentation.scss";
-@import "./opensource.scss";
-@import "./projects.scss";
+html,
+body {
+	font-family: 'Montserrat', sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#hero {
+    padding: 4.5rem;
+    color: white;
+    margin: 0;
+	background-image: radial-gradient( $primary, $secondary );
+
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    .resume {
+        font-size: 1.25rem;
+        text-align: justify;
+    }
+
+    a {
+        color: white;
+    }
+
+    .social-list {
+        display: flex;
+        justify-content: center;
+        margin: 3rem 0;
+
+        .social-item {
+            padding: 1rem;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .divisor {
+        margin-bottom: 2rem;
+    }
+
+    a {
+        margin-bottom: 0.8rem;
+        color: $primary;
+        text-decoration: none;
+    }
+}
