@@ -45,12 +45,18 @@ ul {
   padding: 4.5rem;
   color: white;
   margin: 0;
-  background-image: radial-gradient(#5a0082, #000); }
+  background-image: radial-gradient(#5a0082, #000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
   #hero h1 {
-    font-size: 2.25rem; }
+    font-size: 2.25rem;
+    text-align: center; }
   #hero .resume {
     font-size: 1.25rem;
-    text-align: justify; }
+    text-align: justify;
+    max-width: 600px;
+    margin: 1rem auto; }
   #hero a {
     color: white; }
   #hero .social-list {
