@@ -1,45 +1,57 @@
 .w-xs {
-  width: 640px !important; }
+  width: 640px !important;
+}
 
 .mw-xs {
-  max-width: 640px !important; }
+  max-width: 640px !important;
+}
 
 .mw-sm {
-  max-width: 768px !important; }
+  max-width: 768px !important;
+}
 
 .shadow {
-  box-shadow: 2px 2px 4px #797979 !important; }
+  box-shadow: 2px 2px 4px #797979 !important;
+}
 
 .flex-1 {
-  flex: 1 !important; }
+  flex: 1 !important;
+}
 
 .flex-2 {
-  flex: 2 !important; }
+  flex: 2 !important;
+}
 
 .flex-3 {
-  flex: 3 !important; }
+  flex: 3 !important;
+}
 
 hr {
   width: 50px;
   height: 6px;
-  background-color: #5a0082; }
+  background-color: #5a0082;
+}
 
 .bg-primary-to-secondary {
-  background-image: linear-gradient(#5a0082, #000); }
+  background-image: linear-gradient(#5a0082, #000);
+}
 
 .bg-primary-to-secondary {
-  background-image: radial-gradient(#5a0082, #000); }
+  background-image: radial-gradient(#5a0082, #000);
+}
 
 html,
 body {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 #hero {
   padding: 4.5rem;
@@ -48,32 +60,43 @@ ul {
   background-image: radial-gradient(#5a0082, #000);
   display: flex;
   flex-direction: column;
-  justify-content: center; }
-  #hero h1 {
-    font-size: 2.25rem;
-    text-align: center; }
-  #hero .resume {
-    font-size: 1.25rem;
-    text-align: justify;
-    max-width: 600px;
-    margin: 1rem auto; }
-  #hero a {
-    color: white; }
-  #hero .social-list {
-    display: flex;
-    justify-content: center;
-    margin: 3rem 0; }
-    #hero .social-list .social-item {
-      padding: 1rem; }
+  justify-content: center;
+}
+#hero h1 {
+  font-size: 2.25rem;
+  text-align: center;
+}
+#hero .resume {
+  font-size: 1.25rem;
+  text-align: left;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+#hero a {
+  color: white;
+}
+#hero .social-list {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+#hero .social-list .social-item {
+  padding: 1rem;
+}
 
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
-  footer .divisor {
-    margin-bottom: 2rem; }
-  footer a {
-    margin-bottom: 0.8rem;
-    color: #5a0082;
-    text-decoration: none; }
+  justify-content: center;
+}
+footer .divisor {
+  margin-bottom: 2rem;
+}
+footer a {
+  margin-bottom: 0.8rem;
+  color: #5a0082;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
