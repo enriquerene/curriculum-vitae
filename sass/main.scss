@@ -13,14 +13,19 @@ $theme-colors: (
 	"ts": #7952B3,
 	"telegram": #0088cc,
 );
-@import "./spacing.scss";
-@import "./colorful.scss";
 
 html,
 body {
-	font-family: 'Montserrat', sans-serif !important;
-    margin: 0;
-    padding: 0;
+  font-family: 'Open Sans', sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 558px) {
+    html,
+    body {
+        height: 100%;
+    }
 }
 
 ul {
@@ -31,24 +36,63 @@ ul {
 
 
 #hero {
-    padding: 4.5rem;
+    padding: 2.5rem 1.5rem;
     color: white;
     margin: 0;
-	background-image: radial-gradient( $primary, $secondary );
+    background-image: radial-gradient( $primary, $secondary );
     display: flex;
     flex-direction: column;
     justify-content: center;
+    //align-items: center;
+    height: 100%;
 
-    h1 {
-        font-size: 2.25rem;
-        text-align: center;
+    #title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          margin-right: 20px;
+        }
+
+        h1 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          justify-content: center;
+          font-size: 1.5rem;
+
+          small {
+            font-size: 0.725em;
+          }
+        }
+    }
+
+    address {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 0;
+      max-width: 600px;
+      margin: 0 auto;
+
+      a {
+        margin-bottom: 0.25rem;
+        color: white;
+        text-decoration: none;
+      }
     }
 
     .resume {
-        font-size: 1.25rem;
-        text-align: left;
+        font-size: 1rem;
+        text-align: justify;
         max-width: 600px;
-        margin: 1rem auto;
+        margin: 0.75rem auto;
     }
 
     a {
@@ -58,7 +102,6 @@ ul {
     .social-list {
         display: flex;
         justify-content: center;
-        margin: 3rem 0;
 
         .social-item {
             padding: 1rem;
@@ -66,19 +109,3 @@ ul {
     }
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    .divisor {
-        margin-bottom: 2rem;
-    }
-
-    a {
-        margin-bottom: 0.8rem;
-        color: $primary;
-        text-decoration: none;
-    }
-}
