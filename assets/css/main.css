@@ -3,53 +3,43 @@ body {
   font-family: "Open Sans", sans-serif !important;
   margin: 0;
   padding: 0;
+  min-height: 100%;
 }
 
-@media (min-width: 558px) {
-  html,
-body {
-    height: 100%;
-  }
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-#hero {
+main {
+  background-image: radial-gradient(#5a0082, #000);
   padding: 2.5rem 1.5rem;
   color: white;
   margin: 0;
-  background-image: radial-gradient(#5a0082, #000);
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 }
-#hero #title {
+
+#featured #title {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-#hero #title img {
+#featured #title img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   margin-right: 20px;
 }
-#hero #title h1 {
+#featured #title h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
   font-size: 1.5rem;
 }
-#hero #title h1 small {
+#featured #title h1 small {
   font-size: 0.725em;
 }
-#hero address {
+#featured address {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,26 +48,48 @@ ul {
   max-width: 600px;
   margin: 0 auto;
 }
-#hero address a {
+#featured address a {
   margin-bottom: 0.25rem;
   color: white;
   text-decoration: none;
 }
-#hero .resume {
+#featured a {
+  color: white;
+}
+#featured .social-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+#featured .social-list .social-item {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+#presentation {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#presentation .resume-title {
+  max-width: 600px;
+  margin: 1rem auto;
+}
+#presentation .resume {
   font-size: 1rem;
   text-align: justify;
   max-width: 600px;
   margin: 0.75rem auto;
 }
-#hero a {
-  color: white;
+#presentation ul.skills-list {
+  max-width: 600px;
+  margin: 0.5rem auto;
 }
-#hero .social-list {
-  display: flex;
-  justify-content: center;
-}
-#hero .social-list .social-item {
-  padding: 1rem;
+#presentation ul.skills-list li.skill {
+  list-style-type: disclosure-closed;
+  margin-bottom: 0.25rem;
 }
 
 /*# sourceMappingURL=main.css.map */
