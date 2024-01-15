@@ -1,18 +1,7 @@
 $primary: #5a0082;
 $secondary: #000;
-$theme-colors: (
-	"primary": $primary,
-	"php": #8892be,
-	"js": #f7df1e,
-	"python": #4584b6,
-	"git": #fc6d26,
-	"github": #000000,
-	"linux": #333333,
-	"react": #00d8ff,
-	"bootstrap": #7952B3,
-	"ts": #7952B3,
-	"telegram": #0088cc,
-);
+$reactjs: #00d8ff;
+$nodejs: #68a063; /* 3c873a */
 
 html,
 body {
@@ -22,6 +11,13 @@ body {
   min-height: 100%;
 }
 
+.nodejs {
+  color: $nodejs;
+}
+
+.reactjs {
+  color: $reactjs;
+}
 
 main {
     background-image: radial-gradient( $primary, $secondary );
@@ -55,6 +51,7 @@ main {
           align-items: flex-end;
           justify-content: center;
           font-size: 1.5rem;
+          text-align: right;
 
           small {
             font-size: 0.725em;
@@ -68,7 +65,7 @@ main {
       align-items: center;
       justify-content: center;
       padding: 1rem 0;
-      max-width: 600px;
+      max-width: 720px;
       margin: 0 auto;
 
       a {

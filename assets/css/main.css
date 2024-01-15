@@ -1,9 +1,18 @@
+/* 3c873a */
 html,
 body {
   font-family: "Open Sans", sans-serif !important;
   margin: 0;
   padding: 0;
   min-height: 100%;
+}
+
+.nodejs {
+  color: #68a063;
+}
+
+.reactjs {
+  color: #00d8ff;
 }
 
 main {
@@ -35,6 +44,7 @@ main {
   align-items: flex-end;
   justify-content: center;
   font-size: 1.5rem;
+  text-align: right;
 }
 #featured #title h1 small {
   font-size: 0.725em;
