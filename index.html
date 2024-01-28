@@ -18,7 +18,7 @@
     <link href="https://fonts.cdnfonts.com/css/open-sans" rel="stylesheet" />
 
     <!-- FONTAWESOME AND THEME STYLE -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" />
+    <script src="https://kit.fontawesome.com/e1df53984c.js" crossorigin="anonymous"></script>
     <link href="assets/css/main.css" rel="stylesheet" />
 
     <!-- Primary Meta Tags -->
@@ -45,48 +45,43 @@
     <main>
       <section id="featured">
         <div id="title">
-          <img src="assets/img/enriquerene.jpg" alt="" />
+          <figure id="profile-picture">
+            <img src="assets/img/enriquerene.jpg" alt="" />
+          </figure>
           <h1>
-            <span>Enrique René</span>
-            <small>Senior FullStack Engineer<br /><span class="nodejs">Node.js</span> & <span class="reactjs">ReactJS</span> specialist</small>
+            <span id="name">Enrique René</span>
+            <small id="position">Senior FullStack Engineer<br /><span class="nodejs">Node.js</span> & <span class="reactjs">ReactJS</span> specialist</small>
+            <div id="icons">
+              <span class="icon">
+                <i class="fab fa-node-js"></i>
+              </span>
+              <span class="icon">
+                <i class="fab fa-react"></i>
+              </span>
+              <span class="icon">
+                <i class="fab fa-aws"></i>
+              </span>
+              <span class="icon">
+                <i class="fab fa-docker"></i>
+              </span>
+            </div>
           </h1>
         </div>
-        <address>
-          <a href="https://wa.me/5521964470631" target="_blank">
-            <span>
-              <i class="fab fa-whatsapp"></i>
-            </span>
-            <span>
-              +55 21 964470631
-            </span>
-          </a>
-          <a
-              class="btn btn-link btn-block"
-              href="mailto:enriquerenebr@gmail.com"
-              target="_blank"
-              >
-              <span>
-                <i class="far fa-envelope"></i>
-              </span>
-              <span>
-                enriquerenebr@gmail.com
-              </span>
-          </a>
-        </address>
         <ul class="social-list">
           <li class="social-item">
             <a href="https://enriquerene.com.br/docs/software-engineer-resume.pdf" target="_blank">
-              <i class="far fa-2x fa-file"></i>
+              <span class="fa-stack fa-1x cv">
+                <i class="far fa-file fa-stack-2x"></i>
+                <i class="far fa-user fa-stack-1x" style="font-size: 0.7em; margin-top: 5px;"></i>
+              </span>
             </a>
           </li>
           <li class="social-item">
             <a href="https://linkedin.com/in/enriquerenebr/" target="_blank">
-              <i class="fab fa-2x fa-linkedin"></i>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="https://stackoverflow.com/users/5382576/enrique-ren%c3%a9" target="_blank">
-              <i class="fab fa-2x fa-stack-overflow"></i>
+              <span class="fa-stack fa-1x">
+                <i class="fas fa-square fa-stack-1x fa-2x" width="20" style="color: white;"></i>
+                <i class="fab fa-linkedin fa-stack-2x linkedin"></i>
+              </span>
             </a>
           </li>
           <li class="social-item">
@@ -99,6 +94,21 @@
               <i class="fab fa-2x fa-medium"></i>
             </a>
           </li>
+          <li class="social-item">
+            <a href="https://stackoverflow.com/users/5382576/enrique-ren%c3%a9" target="_blank">
+              <i class="fab fa-2x fa-stack-overflow stackoverflow"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="mailto:enriquerenebr@gmail.com" target="_blank">
+              <i class="far fa-2x fa-envelope google"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://wa.me/5521964470631" target="_blank">
+              <i class="fab fa-2x fa-whatsapp whatsapp"></i>
+            </a>
+          </li>
         </ul>
       </section>
       <section id="presentation">
@@ -109,12 +119,12 @@
 
         <h3 class="resume-title">Key Skills</h3>
         <ul class="skills-list">
-          <li class="skill"><strong>ReactJS and Angular</strong>: Profound experience in developing dynamic user interfaces, leveraging the complete lifecycle of these technologies. Skilled in both class and functional components, hooks, and context API.</li>
-          <li class="skill"><strong>NestJS and Ionic</strong>: Extensive work in creating scalable applications using NestJS and developing hybrid mobile applications with Ionic.</li>
-          <li class="skill"><strong>Node.js</strong>: Strong focus on server-side development, building efficient and scalable solutions in the Node.js ecosystem.</li>
-          <li class="skill"><strong>AWS and Docker</strong>: Proficient in AWS services (S3, EC2, CloudFront, ECS, RDS) and containerization with Docker, including setting up CI/CD pipelines.</li>
-          <li class="skill"><strong>LAMP Stack</strong>: Solid background in Linux, Apache, MySQL, and PHP, with experience in frameworks like Slimframework and Symfony.</li>
-          <li class="skill"><strong>TDD and Agile Practices</strong>: Committed to quality and efficiency through Test-Driven Development, and well-versed in Agile methodologies, including Scrum.</li>
+          <li class="skill"><strong><span class="reactjs">ReactJS</span> and <span class="angular">Angular</span></strong>: Profound experience in developing dynamic user interfaces, leveraging the complete lifecycle of these technologies. Skilled in both class and functional components, hooks, and context API.</li>
+          <li class="skill"><strong><span class="nestjs">NestJS</span> and <span class="ionic">Ionic</span></strong>: Extensive work in creating scalable applications using NestJS and developing hybrid mobile applications with Ionic.</li>
+          <li class="skill"><strong><span class="nodejs">Node.js</span></strong>: Strong focus on server-side development, building efficient and scalable solutions in the Node.js ecosystem.</li>
+          <li class="skill"><strong><span class="aws">AWS</span> and <span class="docker">Docker</span></strong>: Proficient in AWS services (S3, EC2, CloudFront, ECS, RDS) and containerization with Docker, including setting up CI/CD pipelines.</li>
+          <li class="skill"><strong><span class="php">LAMP Stack</span></strong>: Solid background in Linux, Apache, MySQL, and PHP, with experience in frameworks like Slimframework and Symfony.</li>
+          <li class="skill"><strong><span class="scrum">TDD and Agile Practices</span></strong>: Committed to quality and efficiency through Test-Driven Development, and well-versed in Agile methodologies, including Scrum.</li>
         </ul>
 
         <h3 class="resume-title">Career Aspiration</h3>

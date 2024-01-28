@@ -1,10 +1,23 @@
 /* 3c873a */
+/* a6120d */
+/* 232531 */
+/* 146eb4 */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+@font-face {
+  font-family: "Archive";
+  font-display: swap;
+  src: url(assets/fonts/Archive.ttf.woff) format(truetype);
+}
 html,
 body {
   font-family: "Open Sans", sans-serif !important;
   margin: 0;
   padding: 0;
   min-height: 100%;
+}
+
+.cv {
+  color: #fa68ea;
 }
 
 .nodejs {
@@ -15,8 +28,57 @@ body {
   color: #00d8ff;
 }
 
+.angular {
+  color: #dd1b16;
+}
+
+.docker {
+  color: #0db7ed;
+}
+
+.php {
+  color: #8993be;
+}
+
+.aws {
+  color: #ff9900;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.stackoverflow {
+  color: #f48024;
+}
+
+.whatsapp {
+  color: #25d366;
+}
+
+.ionic {
+  color: #176bff;
+}
+
+.nestjs {
+  color: #ea2845;
+}
+
+.google {
+  color: #fbbc05;
+}
+
+.scrum {
+  color: #408280;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
 main {
-  background-image: radial-gradient(#5a0082, #000);
+  background-color: black;
   padding: 2.5rem 1.5rem;
   color: white;
   margin: 0;
@@ -32,22 +94,54 @@ main {
   align-items: center;
   justify-content: center;
 }
-#featured #title img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-right: 20px;
+#featured #title #profile-picture {
+  margin-right: 40px;
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  background-color: #68a063;
+  padding: 5px 5px 0px 5px;
+}
+#featured #title #profile-picture img {
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  width: 100px;
+  height: 100px;
+  border: 1px black solid;
 }
 #featured #title h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   text-align: right;
 }
-#featured #title h1 small {
-  font-size: 0.725em;
+#featured #title h1 #name {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+}
+#featured #title h1 #position {
+  font-family: "Archive", sans-serif;
+  font-size: 1.5rem;
+}
+#featured #title h1 #icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+#featured #title h1 #icons .icon {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 0.8rem;
+  background-color: #000000;
+  box-shadow: 0 0 8px #68a063;
+}
+#featured #title h1 #icons .icon i.fab {
+  font-size: 1.5rem;
 }
 #featured address {
   display: flex;
@@ -55,7 +149,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 1rem 0;
-  max-width: 600px;
+  max-width: 720px;
   margin: 0 auto;
 }
 #featured address a {
@@ -67,7 +161,7 @@ main {
   color: white;
 }
 #featured .social-list {
-  margin: 0;
+  margin: 1rem 0;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -99,7 +193,7 @@ main {
 }
 #presentation ul.skills-list li.skill {
   list-style-type: disclosure-closed;
-  margin-bottom: 0.25rem;
+  margin: 0.5rem 0;
 }
 
 /*# sourceMappingURL=main.css.map */

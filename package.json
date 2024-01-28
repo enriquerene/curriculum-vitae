@@ -1,0 +1,28 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "development environment for curriculum vitae website",
+  "main": "dev.js",
+  "scripts": {
+    "start": "node dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/enriquerene/curriculum-vitae.git"
+  },
+  "keywords": [
+    "curriculum",
+    "cv",
+    "sass"
+  ],
+  "author": "Enrique René Beauxis Reyes",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/enriquerene/curriculum-vitae/issues"
+  },
+  "homepage": "https://github.com/enriquerene/curriculum-vitae#readme",
+  "dependencies": {
+    "sass": "^1.69.7"
+  }
+}
