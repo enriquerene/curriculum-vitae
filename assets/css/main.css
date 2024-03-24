@@ -1,7 +1,8 @@
 /* 3c873a */
 /* a6120d */
-/* 232531 */
+/* 8993be 232531 */
 /* 146eb4 */
+/* #23282D */
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 @font-face {
   font-family: "Archive";
@@ -37,7 +38,7 @@ body {
 }
 
 .php {
-  color: #8993be;
+  color: #A8B3E1;
 }
 
 .aws {
@@ -69,7 +70,15 @@ body {
 }
 
 .scrum {
-  color: #408280;
+  color: #71cbc8;
+}
+
+.wordpress {
+  color: #eeeeee;
+}
+
+.mysql {
+  color: #EE9221;
 }
 
 figure {
@@ -96,15 +105,15 @@ main {
 }
 #featured #title #profile-picture {
   margin-right: 40px;
-  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-  background-color: #68a063;
+  background-color: #A8B3E1;
   padding: 5px 5px 0px 5px;
+  border-radius: 50%;
 }
 #featured #title #profile-picture img {
-  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
   width: 100px;
   height: 100px;
   border: 1px black solid;
+  border-radius: 50%;
 }
 #featured #title h1 {
   display: flex;
@@ -138,9 +147,9 @@ main {
   border-radius: 50%;
   margin-left: 0.8rem;
   background-color: #000000;
-  box-shadow: 0 0 8px #68a063;
+  box-shadow: 0 0 8px #A8B3E1;
 }
-#featured #title h1 #icons .icon i.fab {
+#featured #title h1 #icons .icon i {
   font-size: 1.5rem;
 }
 #featured address {
@@ -195,5 +204,3 @@ main {
   list-style-type: disclosure-closed;
   margin: 0.5rem 0;
 }
-
-/*# sourceMappingURL=main.css.map */

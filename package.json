@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/enriquerene/curriculum-vitae#readme",
   "dependencies": {
-    "sass": "^1.69.7"
+    "sass": "^1.72.0"
   }
 }
